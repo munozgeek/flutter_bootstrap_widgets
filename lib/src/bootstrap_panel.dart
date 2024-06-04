@@ -28,6 +28,7 @@ class BootstrapPanel extends StatelessWidget {
     BootstrapPanelType.green: BootstrapColors.panelGreenText,
     BootstrapPanelType.yellow: BootstrapColors.panelYellowText,
     BootstrapPanelType.red: BootstrapColors.panelRedText,
+    BootstrapPanelType.dark: BootstrapColors.panelDarkText,
   };
 
   final Map<BootstrapPanelType, Color> _backgroundColor = const {
@@ -40,6 +41,7 @@ class BootstrapPanel extends StatelessWidget {
     BootstrapPanelType.green: BootstrapColors.panelGreenBackground,
     BootstrapPanelType.yellow: BootstrapColors.panelYellowBackground,
     BootstrapPanelType.red: BootstrapColors.panelRedBackground,
+    BootstrapPanelType.dark: BootstrapColors.panelDarkBackground,
   };
 
   final Map<BootstrapPanelType, Color> _borderColor = const {
@@ -52,6 +54,7 @@ class BootstrapPanel extends StatelessWidget {
     BootstrapPanelType.green: BootstrapColors.panelGreenBorder,
     BootstrapPanelType.yellow: BootstrapColors.panelYellowBorder,
     BootstrapPanelType.red: BootstrapColors.panelRedBorder,
+    BootstrapPanelType.dark: BootstrapColors.panelDarkBorder,
   };
 
   @override
@@ -137,4 +140,5 @@ enum BootstrapPanelType {
   green,
   yellow,
   red,
+  dark,
 }

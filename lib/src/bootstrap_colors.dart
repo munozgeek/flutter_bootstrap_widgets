@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 class BootstrapColors {
   /// basic
   static const Color defaults = Color(0xFFF5F5F5);
-  static const Color primary = Color(0xFF337AB7);
-  static const Color success = Color(0xFF5CB85C);
-  static const Color warning = Color(0xFFF0AD4E);
-  static const Color info = Color(0xFF5BC0DE);
-  static const Color danger = Color(0xFFD9534F);
+  static const Color primary = Color(0xff1b84ff);
+  static const Color success = Color(0xff17c653);
+  static const Color warning = Color(0xfff6c000);
+  static const Color info = Color(0xff7239ea);
+  static const Color danger = Color(0xfff8285a);
+  static const Color dark = Color(0xff0d0e12);
   static const Color muted = grayLight;
   static const Color grayDarker = Color(0xFF222222);
   static const Color grayDark = Color(0xFF333333);
@@ -47,6 +48,9 @@ class BootstrapColors {
   static const Color panelRedBackground = danger;
   static const Color panelRedText = Colors.white;
   static const Color panelRedBorder = danger;
+  static const Color panelDarkBackground = dark;
+  static const Color panelDarkText = Colors.white;
+  static const Color panelDarkBorder = dark;
 
   /// button
   static const Color buttonDefaultBackground = Colors.white;
@@ -59,19 +63,19 @@ class BootstrapColors {
   static const Color buttonPrimaryBorder = Color(0xFF2E6DA4);
   static const Color buttonSuccessBackground = success;
   static const Color buttonSuccessText = Colors.white;
-  static const Color buttonSuccessOutlineText = Color(0xFF5CB85C);
+  static const Color buttonSuccessOutlineText = Color(0xff17c653);
   static const Color buttonSuccessBorder = Color(0xFF4CAE4C);
   static const Color buttonInfoBackground = info;
   static const Color buttonInfoText = Colors.white;
-  static const Color buttonInfoOutlineText = Color(0xFF5BC0DE);
+  static const Color buttonInfoOutlineText = Color(0xff7239ea);
   static const Color buttonInfoBorder = Color(0xFF46B8DA);
   static const Color buttonWarningBackground = warning;
   static const Color buttonWarningText = Colors.white;
-  static const Color buttonWarningOutlineText = Color(0xFFF0AD4E);
+  static const Color buttonWarningOutlineText = Color(0xfff6c000);
   static const Color buttonWarningBorder = Color(0xFFEEA236);
   static const Color buttonDangerBackground = danger;
   static const Color buttonDangerText = Colors.white;
-  static const Color buttonDangerOutlineText = Color(0xFFD9534F);
+  static const Color buttonDangerOutlineText = Color(0xfff8285a);
   static const Color buttonDangerBorder = Color(0xFFD43F3A);
 
   /// alert
